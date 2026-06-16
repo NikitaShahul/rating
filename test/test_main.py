@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from src.JsonDataReader import JsonDataReader
-from src.TextDataReader import TextDataReader
-from src.main import get_path_from_arguments, get_reader
+from JsonDataReader import JsonDataReader
+from TextDataReader import TextDataReader
+from main import get_path_from_arguments, get_reader
 
 
 class TestMain:
